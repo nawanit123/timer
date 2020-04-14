@@ -1,0 +1,11 @@
+body{
+    background-color: purple;
+    margin: 15% 35% ;
+
+}
+button{
+    font-size: 2rem;
+    padding: 2rem;
+    display: inline;
+}
+
