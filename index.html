@@ -7,9 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" value="30" id="duration">
-    <button id="start">▶</button>    
-    <button id="pause">⏸</button>    
+    <div class="timer">
+        <div class="controls">
+            <input type="text" value="30" id="duration">
+            <div class="buttons-group">
+                <button id="start">▶</button>    
+                <button id="pause">⏸</button>
+            </div>
+        </div>
+        <svg class="dial">
+            <circle r ="190"
+             cx="200" 
+             cy="200" 
+             fill="transparent" 
+             stroke="green" 
+             stroke-width="15"
+             stroke-dasharray="0"
+             stroke-dashoffset="0"
+             transform="rotate(-90 200 200)">
+        </svg>
+    </div>
+    <script src="timer.js"></script>    
     <script src="index.js"></script>
 </body>
 </html>
