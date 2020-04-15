@@ -11,13 +11,19 @@ class Timer{
         this.startButton.addEventListener("click",this.start);
         this.pauseButton.addEventListener("click",this.pause);
     }
+
+    
     start=()=>{
         if(this.onStart) this.onStart(this.timeRemaining);
-        this.tick();
-        this.timerID = setInterval(this.tick,20);
+        if(!running){
+            this.tick();
+            this.timerID = setInterval(this.tick,20);
+            running = true;
+        }
     }
     pause=()=>{
         clearInterval(this.timerID);
+        running = false;
     }
     tick = ()=>{   
         if(this.timeRemaining<=0) {
