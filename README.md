@@ -15,6 +15,10 @@ I have created this project to learn and understand the DOM Manipulation in brow
 ## Features to add in future
   1. Upgrading the project to implement pomodoro technique.
   2. Currently only takes input as seconds. Want to add minutes and hour functionality in the future.
+
+## Edit
+ [Updated]
+ 1. Added validation on the form input to accept Minutes:Seconds;
   
  
   
