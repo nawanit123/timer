@@ -1,4 +1,3 @@
-import Timer from './Timer.js';
 const durationInput = document.querySelector("#duration");
 const formInput = document.querySelector('form');
 const startButton = document.querySelector('#start');
