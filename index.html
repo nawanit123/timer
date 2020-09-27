@@ -9,7 +9,10 @@
 <body>
     <div class="timer">
         <div class="controls">
-            <input type="text" value="0" id="duration">
+            <form action="#">
+                <input type="text" name="timerValues" value="00:00" pattern="((\d+){2})[:]([0-5][0-9])" title="Enter digit in format mm:ss" id="duration">
+                <button type="submit" hidden>Submit</button>
+            </form>
             <div class="buttons-group">
                 <button id="start">▶</button>    
                 <button id="pause">⏸</button>
