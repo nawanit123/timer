@@ -10,10 +10,10 @@
     <div class="timer">
         <div class="controls">
             <form id = "myForm">
-                <input type="text" type="submit" name="timerValues" value="00:00" pattern="((\d+){2})[:]([0-5][0-9])" title="Enter digit in format mm:ss" id="duration" autofocus>
+                <input type="text"  name="timerValues" value="00:00" pattern="((\d+){2})[:]([0-5][0-9]|60)" title="Enter digit in format mm:ss" id="duration" autofocus>
             </form>
             <div class="buttons-group">
-                <button id="start">▶</button>    
+                <button id="start" >▶</button>    
                 <button id="pause">⏸</button>
             </div>
         </div>
@@ -30,7 +30,7 @@
         </svg>
         <div class="result"></div>
     </div>
-    <script type="module" src="timer.js"></script>    
-    <script type="module" src="index.js"></script>
+    <script type="text/javascript" src="timer.js"></script>    
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
