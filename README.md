@@ -2,7 +2,13 @@
 Simple Timer in JS
 link:https://nawanit123.github.io/timer
 
-I have created this project to learn and understand the DOM Manipulation in browsers with a cool fun project that I may enhance further   in the future.
+
+I have created this project to learn and understand the DOM Manipulation in browsers with a cool fun project that I may enhance further in the future.
+
+## Steps:
+  1. Enter value in the input box and press enter to trigger the timer.
+  2. Click pause and play buttons for pausing and restarting the timer.
+  
 
 ## Features;
   1. Simple timer app using native javascript.
