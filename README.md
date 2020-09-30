@@ -7,7 +7,7 @@ I have created this project to learn and understand the DOM Manipulation in brow
 ## Features;
   1. Simple timer app using native javascript.
   2. Manipulation of Dom.
-  3. Use of getter and setter.
+  3. ~~Use of getter and setter.~~ [Update] Removed getter and setter method in class because of scalability issue.
   4. Use of class in javascript.
   5. Implemented svg element in the html.
 
